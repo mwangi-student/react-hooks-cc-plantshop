@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "json-server": "^0.16.3",
+    "json-server": "^0.17.4",
     "node-fetch": "^2.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -44,6 +44,8 @@
       "<rootDir>/jest.setup.js"
     ],
     "testEnvironment": "jsdom",
-    "testPathIgnorePatterns": ["/test_suites"]
+    "testPathIgnorePatterns": [
+      "/test_suites"
+    ]
   }
 }
