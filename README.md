@@ -32,4 +32,4 @@ As a user:
 
 ## The site is live at
 
-https://guileless-praline-5f363e.netlify.app
+https://cerulean-tanuki-d276a1.netlify.app/
