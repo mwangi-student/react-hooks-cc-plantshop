@@ -16,13 +16,16 @@ function NewPlantForm({ addPlant }) {
     };
 
     // Send POST request to add the new plant
-    fetch("https://react-hooks-cc-plantshop-7u6e.onrender.com/plants", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(newPlant)
-    })
+    fetch(
+      `https://react-hooks-cc-plantshop-7u6e.onrender.com/plants?_=${new Date().getTime()}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newPlant)
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         addPlant(data); // Call the callback to update parent state
