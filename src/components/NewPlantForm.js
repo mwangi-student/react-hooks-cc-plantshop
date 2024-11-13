@@ -16,7 +16,7 @@ function NewPlantForm({ addPlant }) {
     };
 
     // Send POST request to add the new plant
-    fetch("https://react-hooks-cc-plantshop-g3xl.onrender.com/plants", {
+    fetch("https://react-hooks-cc-plantshop-7u6e.onrender.com/plants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

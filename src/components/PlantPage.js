@@ -9,7 +9,7 @@ function PlantPage() {
 
   // Fetch plants data from the server
   useEffect(() => {
-    fetch("https://react-hooks-cc-plantshop-g3xl.onrender.com/plants")
+    fetch("https://react-hooks-cc-plantshop-7u6e.onrender.com/plants")
       .then((res) => res.json())
       .then((data) => setPlants(data));
   }, []);
